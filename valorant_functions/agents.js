@@ -1,5 +1,5 @@
-module.exports = {
-agents : [
+module.exports = [
+
    {
     name: 'Astra',
     pais: 'Gana',
@@ -134,5 +134,4 @@ agents : [
     orbes: 6
    }
 
-]
-};
+];
