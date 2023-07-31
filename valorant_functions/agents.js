@@ -31,7 +31,7 @@ module.exports = [
    {
     name: 'Cypher',
     pais: 'Marrocos',
-    classe: 'Controlador',
+    classe: 'Sentinela',
     habilidades: ['jaula cibernética', 'câmera de vigilância', 'fio-armadilha', 'assalto neural'],
     orbes: 6
    },
