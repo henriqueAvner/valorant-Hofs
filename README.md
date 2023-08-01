@@ -33,15 +33,12 @@ This repository will be used as a training for my skills. This skills were learn
 <p>
     - Crie uma função que encontre o primeiro agente quando passado um país como parâmetro.
 </p>
-<h2>8 - GET COUNTRY AGENTS: </h2>
-<p>
-    - Crie uma função que retorne um array com os nomes dos paises, após isso, inclua quantos agentes são de cada país
-</p>
-<h2>9 - GET AGENT ORBS:</h2>
+
+<h2>8 - GET AGENT ORBS:</h2>
 <p>
     - Retorne o nome dos agentes pela quantidade de orbes para suas ultimates (entre 6 e 8);
 </p>
-<h2>10 - GET CONTROLLER ORBS:</h2>
+<h2>9 - GET CONTROLLER ORBS:</h2>
 <p>
     - Retorne um array com a quantidade de orbes apenas dos controladores
 </p>
