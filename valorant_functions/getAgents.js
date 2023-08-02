@@ -4,4 +4,6 @@ const getAgents = () => {
     const sizeAgents = agents.length;
     return sizeAgents;
 }
-console.log(getAgents());
+
+
+module.exports = getAgents;
