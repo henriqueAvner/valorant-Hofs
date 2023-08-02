@@ -7,4 +7,6 @@ const getEuas = () => {
         }
     }).map((agent) => agent.name);
 }
-console.log(getEuas());
+
+
+module.exports = getEuas;
