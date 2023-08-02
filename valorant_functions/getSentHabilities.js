@@ -9,4 +9,4 @@ const getSentHabilities = () => {
         return {nome: agente.name, habilidades: agente.habilidades} 
     });
 }
-console.log(getSentHabilities());
+module.exports = getSentHabilities;
