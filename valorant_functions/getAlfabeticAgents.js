@@ -7,4 +7,5 @@ const getAlfabeticAgents = () => {
         return nome.name;
     }).sort((a, b) => a.localeCompare(b));
 }
-console.log(getAlfabeticAgents());
+
+module.exports = getAlfabeticAgents;
