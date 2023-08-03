@@ -7,5 +7,6 @@ const getDuelists = () => {
     }
    })
 }
-console.log(getDuelists());
+
     
+module.exports = getDuelists;
