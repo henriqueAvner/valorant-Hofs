@@ -10,4 +10,5 @@ const getAgentOrbs = (orbes) => {
         }
     }).map(name => name.name);
 }
-console.log(getAgentOrbs(6));
+console.log(getAgentOrbs());
+module.exports = getAgentOrbs;
