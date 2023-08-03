@@ -6,7 +6,8 @@ const getControllerOrbs = () => {
             return agent;
         }
     }).map((number) => {
-        return `Orbes: ${number.orbes}`;
+        return `${number.name}: ${number.orbes}`;
     });
 }
-console.log(getControllerOrbs());
+
+module.exports = getControllerOrbs;
