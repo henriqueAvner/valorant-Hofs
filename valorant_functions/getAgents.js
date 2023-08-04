@@ -1,9 +1,5 @@
 const agents = require('../valorant_functions/agents');
 
-const getAgents = () => {
-    const sizeAgents = agents.length;
-    return sizeAgents;
-}
-
+const getAgents = () => agents.length;
 
 module.exports = getAgents;
