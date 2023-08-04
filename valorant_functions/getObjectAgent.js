@@ -7,11 +7,10 @@ const getObjectAgent = (agentObject) => {
     if (typeof agentObject !== 'string') {
         return 'Erro! O parâmetro deve ser uma string';
     }
-   return agents.filter((agent) => {
-        if (agentObject === agent.name) {
-            return agent;
-        }
-    })
+    return agents.filter((agent) => {
+         if (agentObject === agent.name) {
+             return agent;
+         }
+     })
 }
-console.log(getObjectAgent(4));
 module.exports = getObjectAgent;
