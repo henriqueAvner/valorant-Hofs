@@ -19,7 +19,7 @@ describe('A função retorna apena um grupo específico do array', () => {
       }
       expect(getDuelists()[5]).toEqual(yoru);
     })
-    it('Todos os objeto devem possuir a classe DUELISTA;', () => {
+    it('Todos os objetos devem possuir a classe DUELISTA;', () => {
         const classDuel = getDuelists().filter(duel => duel).map(classe => classe.classe);
         expect(classDuel).toContain('Duelista');
     })
